@@ -4,17 +4,24 @@
 
 ### Aljon C. Tocayon
 
+> Note: To run this application you need to have a node ready machine.
+
+If your machine is not node ready visit [Node](https://nodejs.org/en/) to download the
+latest version for your machine and install.
+
 ## Project Directories
 
 > backend - contains the tic tac toe game functionalities.
 
-    * helpers - Reusable constant, methods.
+    * helpers - contains reusable constant, methods.
+    * src - contains the actual code for the backend.
 
 > frontend - contains the User Interface / Design of the tic tac toe game.
 
-    * components - Reusable React components.
-    * helpers - Reusable constant, methods.
-    * interfaces - Reusable typescript interface.
+    * src - contains the actual code for the frontend.
+    * components - contains reusable React components.
+    * helpers - contains reusable constant and methods.
+    * interfaces - contains reusable typescript interface.
 
 ## Technology used
 
@@ -24,7 +31,7 @@
     2. Frontend
         * React JS
 
-## Available Scripts To Run The Game
+## Available Scripts To Run The Application
 
 > Note: Open the project in your preferred text editor.
 
@@ -41,7 +48,7 @@ Run the game in the development mode.\
 1. frontend - Open your brower and visit [http://localhost:3000](http://localhost:3000) to view and start to play.
 2. backend - The server is running in [http://localhost:5000](http://localhost:5000)
 
-The page will reload if you make edits.\
+The page will reload if you make edits in frontend.\
 You will also see any lint errors in the console.
 
 ### `yarn test`
